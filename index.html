@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line maker</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <div>
+        <div>
+            <label for="width">Enter Line width in pixels </label>
+            <input type="number" id="width" value="2" min="1" max="10">
+        </div>
+
+
+        <div>
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+
+        <div>
+            <button id="add-random-point">Add Random Point</button>
+            <input type="text" id="manual-coord" placeholder="Enter x,y">
+            <button id="add-manual-point">Add Point</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
